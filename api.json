@@ -1,0 +1,84 @@
+{
+  "info": {
+    "_postman_id": "fb9e0a0a-f8d0-4edb-8f11-897c90df0d22",
+    "name": "Api For Ukraine",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "15160627"
+  },
+  "item": [
+    {
+      "name": "Get Users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://6061cac0ac47190017a71c0d.mockapi.io/api/Users/Persons",
+          "protocol": "https",
+          "host": ["6061cac0ac47190017a71c0d", "mockapi", "io"],
+          "path": ["api", "Users", "Persons"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+
+          "raw": "{\r\n        \"dateTime\": 1617022800,\r\n        \"FullName\": \"chen\",\r\n        \"Status\": 0\r\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://6061cac0ac47190017a71c0d.mockapi.io/api/Users/Persons",
+          "protocol": "https",
+          "host": ["6061cac0ac47190017a71c0d", "mockapi", "io"],
+          "path": ["api", "Users", "Persons"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n        \"dateTime\": 1617022800,\r\n        \"FullName\": \"chen\",\r\n        \"Status\": 2\r\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://6061cac0ac47190017a71c0d.mockapi.io/api/Users/Persons/2",
+          "protocol": "https",
+          "host": ["6061cac0ac47190017a71c0d", "mockapi", "io"],
+          "path": ["api", "Users", "Persons", "2"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get One",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://6061cac0ac47190017a71c0d.mockapi.io/api/Users/Persons/1",
+          "protocol": "https",
+          "host": ["6061cac0ac47190017a71c0d", "mockapi", "io"],
+          "path": ["api", "Users", "Persons", "1"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
